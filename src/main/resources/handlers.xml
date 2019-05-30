@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handler-chains xmlns="http://java.sun.com/xml/ns/javaee">
+    <handler-chain>
+        <handler>
+            <!-- Handles logging of SOAP calls -->
+            <handler-class>nl.mumasoft.soaptest.service.SoapLogger</handler-class>
+        </handler>
+    </handler-chain>
+</handler-chains>
